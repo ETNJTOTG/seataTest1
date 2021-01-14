@@ -23,17 +23,17 @@
 
     <properties>
         <seata.version>1.4.1</seata.version>
+        <dubbo-spring-boot-starter.version>2.0.0</dubbo-spring-boot-starter.version>
+        <logback-classic.version>1.2.3</logback-classic.version>
+        <slf4j.version>1.7.30</slf4j.version>
+        <logstash-logback-encoder.version>6.6</logstash-logback-encoder.version>
+        <druid.version>1.2.4</druid.version>
+        <mysql.version>8.0.22</mysql.version>
+        <commons-lang3.version>3.11</commons-lang3.version>
+        <zkclient.version>0.11</zkclient.version>
+        <curator.version>5.1.0</curator.version>
+        <fastjson.version>1.2.75</fastjson.version>
     </properties>
-
-    <dependencyManagement>
-        <dependencies>
-            <dependency>
-                <groupId>io.seata</groupId>
-                <artifactId>seata-all</artifactId>
-                <version>${seata.version}</version>
-            </dependency>
-        </dependencies>
-    </dependencyManagement>
 
     <build>
         <plugins>
